@@ -18,13 +18,13 @@ This lab demonstrates how to capture and decrypt HTTPS (TLS) traffic using Wires
 
 ## Table of Contents
 
-* [Overview](#-tls-traffic-analysis-with-wireshark)
-* [Skills Demonstrated](#-skills-demonstrated)
-* [Tools Used](#-tools-used)
-* [TLS Decryption Setup](#-tls-decryption-setup)
-* [DNS + WHOIS Analysis](#-dns-analysis)
-* [Traffic Analysis Summary](#-traffic-analysis-summary)
-* [License](#-license)
+* Overview
+* Skills Demonstrated
+* Tools Used
+* TLS Decryption Setup
+* DNS + WHOIS Analysis
+* Traffic Analysis Summary
+* License
 
 ## Decryption Setup
 
