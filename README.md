@@ -1,22 +1,22 @@
-# 🔍 TLS Traffic Analysis with Wireshark
+# TLS Traffic Analysis with Wireshark
 
 This lab demonstrates how to capture and decrypt HTTPS (TLS) traffic using Wireshark, inspect DNS queries to reveal domains, and verify IP ownership using WHOIS. All traffic is captured ethically on the analyst's own machine.
 
-## ✅ Skills Demonstrated
+## Skills Demonstrated
 
 * Capturing and decrypting TLSv1.2 traffic using Wireshark
 * Using SSL pre-master secrets to reveal HTTPS content
 * Tracking DNS lookups to identify target domains
 * Using `whois` to confirm IP address ownership
 
-## 🛠 Tools Used
+## Tools Used
 
 * Wireshark
 * Firefox
 * Linux Terminal (Kali)
 * DNS and WHOIS
 
-## 📌 Table of Contents
+## Table of Contents
 
 * [Overview](#-tls-traffic-analysis-with-wireshark)
 * [Skills Demonstrated](#-skills-demonstrated)
@@ -26,7 +26,7 @@ This lab demonstrates how to capture and decrypt HTTPS (TLS) traffic using Wires
 * [Traffic Analysis Summary](#-traffic-analysis-summary)
 * [License](#-license)
 
-## 🔐 Decryption Setup
+## Decryption Setup
 
 1. Set the environment variable:
 
@@ -43,7 +43,7 @@ This lab demonstrates how to capture and decrypt HTTPS (TLS) traffic using Wires
 
 ---
 
-### 🧪 DNS Analysis
+### DNS Analysis
 
 Filter:
 
@@ -55,7 +55,7 @@ Reveals domains like `play.google.com`, with resolved IPs (e.g., `192.178.50.46`
 
 ---
 
-### 🧠 WHOIS Lookup
+### WHOIS Lookup
 
 Run:
 
@@ -67,7 +67,7 @@ Result: IP is owned by Google LLC.
 
 ---
 
-## 📊 Traffic Analysis Summary
+## Traffic Analysis Summary
 
 The analysis included:
 
@@ -80,6 +80,6 @@ This demonstrates the ability to capture, decrypt, and investigate encrypted tra
 
 ---
 
-## 📚 License
+## License
 
 MIT
